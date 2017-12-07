@@ -1,7 +1,13 @@
-Angular Toaster Module (ng2-toastr)
+Modified - Angular Toaster Module (ng2-toastr)
 ===================
 
 [![](https://img.shields.io/badge/npm-v4.1.2-brightgreen.svg)](https://www.npmjs.com/package/ng2-toastr)
+
+##Modification Info
+
+Adding new notification types
+
+##Original Module Info
 
 The lib is inspired by [angular-toastr] (https://github.com/Foxandxss/angular-toastr), and will show bootstrap-like toasts. 
 Please update Modern Angular (v4.0.0+) latest version to avoid any unexpected issues. 
