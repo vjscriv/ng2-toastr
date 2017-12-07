@@ -160,4 +160,10 @@ export class ToastsManager {
     const toast = new Toast('custom', message, title, data);
     return this.show(toast, options);
   }
+  // Amb custom twitter type
+  twitter(message: string, title?: string, options?: any): Promise<Toast> {
+    const data = options && options.data ? options.data : null;
+    const toast = new Toast('twitter', message, title, data);
+    return this.show(toast, options);
+  }
 }
