@@ -130,6 +130,12 @@ var ToastsManager = (function () {
         var toast = new toast_1.Toast('custom', message, title, data);
         return this.show(toast, options);
     };
+    // xamb custom toast type
+    ToastsManager.prototype.twitter = function (message, title, options) {
+        var data = options && options.data ? options.data : null;
+        var toast = new toast_1.Toast('twitter', message, title, data);
+        return this.show(toast, options);
+    };
     return ToastsManager;
 }());
 ToastsManager.decorators = [
